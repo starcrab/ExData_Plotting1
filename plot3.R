@@ -11,7 +11,7 @@ lines(power2$datetime, power2$Sub_metering_3, col="blue")
 legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),col=c("black","red","blue")) # draw legend
 
 #create PNG file
-png(file = "plot3.png", bg = "transparent")
+png(file = "plot3.png", bg = "white")
 plot(power2$datetime, power2$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
 #add lines for metering 2 & 3
 lines(power2$datetime, power2$Sub_metering_2, col="red")

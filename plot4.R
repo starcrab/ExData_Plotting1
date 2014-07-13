@@ -19,7 +19,7 @@ legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1
 plot(power2$datetime, power2$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
 
 #create PNG file
-png(file = "plot4.png", bg = "transparent")
+png(file = "plot4.png", bg = "white")
 par(mfrow=c(2,2), mar=c(4,4,2,1)) #set to display 4 plots on screen and set margin
 
 # 1st plot
